@@ -38,7 +38,7 @@ httpServer.listen(process.env.PORT || 4000, () => {
 
 app.use(express.json());
 app.use(cors({
-  origin: '',
+  origin: 'https://social-media-app-frontend-tau.vercel.app/',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));

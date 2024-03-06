@@ -1,4 +1,6 @@
 /__sapper__
 /cypress
+!client
+/client/
 !node_modules
 /node_modules/*
